@@ -651,7 +651,7 @@
   },
   {
     "name": "BGPT MCP",
-    "url": "https://github.com/connerlambden/bgpt-mcp",
+    "url": "https://bgpt.pro/mcp/",
     "description": "Search full-text scientific papers and return structured evidence for research agents.",
     "category": "browsers-search-and-web-automation",
     "language": "Python",
@@ -662,7 +662,10 @@
       "science",
       "literature"
     ],
-    "official": false
+    "official": false,
+    "endpoints": {
+      "sse": "https://bgpt.pro/mcp/sse"
+    }
   },
   {
     "name": "Tavily MCP Server",
@@ -1951,6 +1954,96 @@
       "usdc"
     ],
     "official": false
+  },
+  {
+    "name": "Robot Speed",
+    "url": "https://github.com/robot-speed/mcp",
+    "description": "SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Robot Speed",
+    "tags": [
+      "seo",
+      "analytics",
+      "keywords",
+      "content"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.robot-speed.com/api/mcp"
+    }
+  },
+  {
+    "name": "Kleap",
+    "url": "https://github.com/kleaphq/cli",
+    "description": "Create, edit, and publish websites from AI clients through a hosted MCP server.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "Kleap",
+    "tags": [
+      "websites",
+      "publishing",
+      "cli",
+      "agents"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://kleap.co/api/mcp"
+    }
+  },
+  {
+    "name": "CareClinic Health Tracker",
+    "url": "https://github.com/tandemloop/careclinic_mcp",
+    "description": "Track symptoms, mood, medications, and wellness patterns through a remote OAuth MCP server.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "CareClinic",
+    "tags": [
+      "health",
+      "tracking",
+      "oauth",
+      "wellness"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.careclinic.io/mcp"
+    }
+  },
+  {
+    "name": "Astral Twin",
+    "url": "https://astraldaily.com",
+    "description": "Create and mint NFT asset packs on the Base blockchain from AI clients.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Astral Daily",
+    "tags": [
+      "nft",
+      "blockchain",
+      "base",
+      "minting"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://astraldaily.com/api/mcp"
+    }
+  },
+  {
+    "name": "ContHunt",
+    "url": "https://github.com/Synthenova/conthunt-mcp",
+    "description": "Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "ContHunt",
+    "tags": [
+      "social",
+      "content",
+      "research",
+      "tiktok"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.conthunt.app/"
+    }
   },
   {
     "name": "Live Tennis API MCP",
