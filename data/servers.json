@@ -835,7 +835,7 @@
   {
     "name": "Markovo",
     "url": "https://github.com/fisher-byte/markovo",
-    "description": "Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages (Google Docs, Notion, GitHub, Hacker News, YouTube) into clean, structured Markdown for agent context. Hosted Streamable HTTP endpoint with OAuth 2.1 plus local stdio server whose file tools are sandboxed to a dedicated root directory; every conversion requires an explicit Credit ceiling.",
+    "description": "Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean Markdown for agent context; hosted Streamable HTTP with OAuth 2.1 plus sandboxed local stdio.",
     "category": "filesystems-and-documents",
     "language": "Python",
     "provider": "Markovo",
@@ -2148,7 +2148,7 @@
   },
   {
     "name": "Zovo Invoice MCP",
-    "url": "https://github.com/theluckystrike/mcp-servers",
+    "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice",
     "description": "Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
@@ -2196,6 +2196,21 @@
       "knowledge",
       "encryption",
       "local"
+    ],
+    "official": false
+  },
+  {
+    "name": "Postbag MCP Server",
+    "url": "https://github.com/faahim/postbag",
+    "description": "Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Postbag",
+    "tags": [
+      "forms",
+      "email",
+      "webhooks",
+      "self-hosted"
     ],
     "official": false
   }

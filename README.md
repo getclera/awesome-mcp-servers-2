@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-151-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-152-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -31,7 +31,6 @@ Interactive, searchable map of the MCP servers in this catalog. **[Open the live
 See [landscape/README.md](landscape/README.md) for how the landscape is built and how to preview or customize it locally.
 
 ## Catalog
-- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — a tool for recording and replaying AI agent runs.
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (13)
@@ -39,7 +38,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (12)
 - [Filesystems and Documents](#filesystems-and-documents) (8)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
-- [Communication and Productivity](#communication-and-productivity) (14)
+- [Communication and Productivity](#communication-and-productivity) (15)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (20)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (10)
 - [Legal and Court Data](#legal-and-court-data) (1)
@@ -193,7 +192,7 @@ Read and write files, convert documents, and connect to knowledge bases.
   `google-drive` `files` `cloud`
 - **[MarkItDown MCP](https://github.com/microsoft/markitdown)** `Official` `Python` — Convert PDFs, Office docs, and media into markdown for LLM ingestion.  
   `documents` `conversion` `markdown`
-- **[Markovo](https://github.com/fisher-byte/markovo)** `Python` — Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages (Google Docs, Notion, GitHub, Hacker News, YouTube) into clean, structured Markdown for agent context. Hosted Streamable HTTP endpoint with OAuth 2.1 plus local stdio server whose file tools are sandboxed to a dedicated root directory; every conversion requires an explicit Credit ceiling.  
+- **[Markovo](https://github.com/fisher-byte/markovo)** `Python` — Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean Markdown for agent context; hosted Streamable HTTP with OAuth 2.1 plus sandboxed local stdio.  
   `pdf` `documents` `markdown` `conversion` `remote`
 - **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `Official` `TypeScript` — Read and write Notion pages, databases, and workspace content.  
   `notion` `knowledge-base` `docs`
@@ -255,6 +254,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `teams` `chat` `microsoft`
 - **[OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio)** `TypeScript` — Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.  
   `video` `editing` `automation` `mcp`
+- **[Postbag MCP Server](https://github.com/faahim/postbag)** `TypeScript` — Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks.  
+  `forms` `email` `webhooks` `self-hosted`
 - **[Process Street MCP Server](https://github.com/process-street/process-street-mcp)** `Official` `Other` — Connect AI clients to Process Street workflows, workflow runs, tasks, users, data sets, and operational records.  
   `workflows` `tasks` `process-management` `operations`
 - **[Slack MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** `Python` — Send messages and interact with Slack channels and workspaces.  
@@ -410,7 +411,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `payments` `billing` `fintech`
 - **[Worklittle Jobs](https://github.com/worklittle/jobs-mcp)** `Other` — Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.  
   `jobs` `recruiting` `remote` `oauth`
-- **[Zovo Invoice MCP](https://github.com/theluckystrike/mcp-servers)** `TypeScript` — Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint.  
+- **[Zovo Invoice MCP](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice)** `TypeScript` — Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint.  
   `invoice` `pdf` `billing` `bookkeeping` `finance`
 
 <a id="utilities-and-examples"></a>
