@@ -664,8 +664,7 @@
     ],
     "official": false,
     "endpoints": {
-      "sse": "https://bgpt.pro/mcp/sse",
-      "streamableHttp": "https://bgpt.pro/mcp/stream"
+      "sse": "https://bgpt.pro/mcp/sse"
     }
   },
   {
