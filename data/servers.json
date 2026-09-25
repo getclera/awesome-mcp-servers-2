@@ -2407,6 +2407,21 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.getclera.com"
+    "name": "API.market MCP Gateway",
+    "url": "https://api.market/mcp",
+    "description": "Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "API.market",
+    "tags": [
+      "api",
+      "gateway",
+      "oauth",
+      "hosted"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.market/api/mcp/gateway"
     }
   }
 ]
